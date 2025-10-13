@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 const Hero = () => {
   return (
     <div
@@ -15,9 +14,12 @@ const Hero = () => {
         </h1>
         <p className="text-lg md:text-xl font-light mb-6">
           Your unforgettable journey starts here — explore paradise with{" "}
-          <span className="font-semibold text-primary">GetBaliTrip</span>.
+          <span className="font-semibold text-orange-400">GetBaliTrip</span>.
         </p>
-        <a href="#packages" className="btn btn-primary">
+        <a
+          href="#packages"
+          className="btn bg-orange-400 hover:bg-orange-500 hover:scale-105 transition ease-in-out rounded-xl"
+        >
           Explore Packages
         </a>
       </div>

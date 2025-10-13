@@ -16,9 +16,12 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 my-2 md:px-10 w-full z-50 text-white">
       <div className="flex justify-between items-center px-6 py-4 w-full">
         {/* Logo */}
-        <div className="text-2xl md:text-3xl leading-relaxed tracking-wide font-bold">
-          GetBaliTrip
-        </div>
+        <a
+          href="/"
+          className="text-2xl md:text-3xl leading-relaxed tracking-wide font-bold"
+        >
+          GetBaliTrip.
+        </a>
 
         {/* Hamburger Button */}
         <button
