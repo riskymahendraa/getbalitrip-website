@@ -2,7 +2,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="relative h-[80vh] flex items-center justify-center bg-center bg-cover pt-[80px]"
+      // Hapus pt-[80px] di sini. Padding untuk Navbar sudah dihandle di Home.jsx
+      className="relative h-[80vh] flex items-center justify-center bg-center bg-cover"
       style={{
         backgroundImage: "url('/images/heroo.jpg')",
       }}
