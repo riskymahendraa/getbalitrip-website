@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ubud",
+    "title": "Discover the Heart of Bali",
+    "rating": 5.0,
+    "short_description": "Ubud, the cultural heart of Bali, is a serene town surrounded by lush rice terraces, ancient temples, and vibrant art scenes. Known for its spiritual ambiance and traditional crafts, Ubud offers a perfect blend of nature, culture, and tranquility. Visitors can explore the Sacred Monkey Forest Sanctuary, wander through the bustling Ubud Art Market, or take a leisurely stroll along the iconic Tegalalang Rice Terrace. With its yoga retreats, wellness centers, and authentic Balinese cuisine, Ubud is a haven for those seeking relaxation and inspiration.",
+    "description": "Nestled in the lush highlands of Bali, Ubud is a magical town where nature, culture, and spirituality blend in perfect harmony. Surrounded by emerald-green rice terraces, sacred temples, and tranquil rivers, Ubud offers an escape into a world of peace and inspiration. Often called the “Cultural Heart of Bali,” Ubud is home to traditional dance performances, ancient temples, art galleries, and craft villages where local artisans create beautiful handmade works. Wander through the vibrant Ubud Art Market, explore the iconic Tegalalang Rice Terrace, or visit the serene Sacred Monkey Forest Sanctuary — every corner of Ubud tells a story.",
+    "image": "/images/hero.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tabanan",
+    "title": "Discover the Heart of Bali",
+    "rating": 4.9,
+    "short_description": "Ubud, the cultural heart of Bali, is a serene town surrounded by lush rice terraces, ancient temples, and vibrant art scenes. Known for its spiritual ambiance and traditional crafts, Ubud offers a perfect blend of nature, culture, and tranquility. Visitors can explore the Sacred Monkey Forest Sanctuary, wander through the bustling Ubud Art Market, or take a leisurely stroll along the iconic Tegalalang Rice Terrace. With its yoga retreats, wellness centers, and authentic Balinese cuisine, Ubud is a haven for those seeking relaxation and inspiration.",
+    "description": "Nestled in the lush highlands of Bali, Ubud is a magical town where nature, culture, and spirituality blend in perfect harmony. Surrounded by emerald-green rice terraces, sacred temples, and tranquil rivers, Ubud offers an escape into a world of peace and inspiration. Often called the “Cultural Heart of Bali,” Ubud is home to traditional dance performances, ancient temples, art galleries, and craft villages where local artisans create beautiful handmade works. Wander through the vibrant Ubud Art Market, explore the iconic Tegalalang Rice Terrace, or visit the serene Sacred Monkey Forest Sanctuary — every corner of Ubud tells a story.",
+    "image": "/images/tabanan.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jimbaran",
+    "title": "Discover the Heart of Bali",
+    "rating": 4.9,
+    "short_description": "Ubud, the cultural heart of Bali, is a serene town surrounded by lush rice terraces, ancient temples, and vibrant art scenes. Known for its spiritual ambiance and traditional crafts, Ubud offers a perfect blend of nature, culture, and tranquility. Visitors can explore the Sacred Monkey Forest Sanctuary, wander through the bustling Ubud Art Market, or take a leisurely stroll along the iconic Tegalalang Rice Terrace. With its yoga retreats, wellness centers, and authentic Balinese cuisine, Ubud is a haven for those seeking relaxation and inspiration.",
+    "description": "Nestled in the lush highlands of Bali, Ubud is a magical town where nature, culture, and spirituality blend in perfect harmony. Surrounded by emerald-green rice terraces, sacred temples, and tranquil rivers, Ubud offers an escape into a world of peace and inspiration. Often called the “Cultural Heart of Bali,” Ubud is home to traditional dance performances, ancient temples, art galleries, and craft villages where local artisans create beautiful handmade works. Wander through the vibrant Ubud Art Market, explore the iconic Tegalalang Rice Terrace, or visit the serene Sacred Monkey Forest Sanctuary — every corner of Ubud tells a story.",
+    "image": "/images/uluwatu-kecak.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Buleleng",
+    "title": "Discover the Heart of Bali",
+    "rating": 4.8,
+    "short_description": "Ubud, the cultural heart of Bali, is a serene town surrounded by lush rice terraces, ancient temples, and vibrant art scenes. Known for its spiritual ambiance and traditional crafts, Ubud offers a perfect blend of nature, culture, and tranquility. Visitors can explore the Sacred Monkey Forest Sanctuary, wander through the bustling Ubud Art Market, or take a leisurely stroll along the iconic Tegalalang Rice Terrace. With its yoga retreats, wellness centers, and authentic Balinese cuisine, Ubud is a haven for those seeking relaxation and inspiration.",
+    "description": "Nestled in the lush highlands of Bali, Ubud is a magical town where nature, culture, and spirituality blend in perfect harmony. Surrounded by emerald-green rice terraces, sacred temples, and tranquil rivers, Ubud offers an escape into a world of peace and inspiration. Often called the “Cultural Heart of Bali,” Ubud is home to traditional dance performances, ancient temples, art galleries, and craft villages where local artisans create beautiful handmade works. Wander through the vibrant Ubud Art Market, explore the iconic Tegalalang Rice Terrace, or visit the serene Sacred Monkey Forest Sanctuary — every corner of Ubud tells a story.",
+    "image": "/images/buleleng.webp"
+  }
+]
