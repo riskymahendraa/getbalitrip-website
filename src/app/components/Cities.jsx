@@ -9,7 +9,7 @@ const Cities = () => {
         <div className="space-y-6">
           {/* Heading & Intro */}
           <div className="w-full">
-            <h3 className="text-2xl sm:text-xl md:text-2xl leading-relaxed tracking-wide mb-2 font-semibold text-yellow-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-yellow-500">
+            <h3 className="text-2xl sm:text-xl md:text-2xl leading-relaxed tracking-wide mb-2 font-semibold text-lime-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-lime-500">
               Tour Destinations
             </h3>
             <p className="leading-relaxed text-sm sm:text-base text-gray-700">

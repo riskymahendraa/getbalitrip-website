@@ -4,19 +4,19 @@ import ContentLayout from "../Layouts/ContentLayout";
 
 const offers = [
   {
-    icon: <FaCarSide className="text-4xl text-orange-500 mx-auto" />,
-    title: "Lots of Choices",
-    desc: "We’ve provided several options of destinations and many travel packages.",
+    icon: <FaCarSide className="text-4xl text-lime-500 mx-auto" />,
+    title: "Comfortable Transport",
+    desc: "We provide comfortable and safe transportation options for your travel needs.",
   },
   {
-    icon: <FaUsers className="text-4xl text-orange-500 mx-auto" />,
+    icon: <FaUsers className="text-4xl text-lime-500 mx-auto" />,
     title: "Best Tour Guides",
     desc: "We have professional tour guides who make your trip enjoyable and informative.",
   },
   {
-    icon: <FaCalendarCheck className="text-4xl text-orange-500 mx-auto" />,
-    title: "Easy Booking",
-    desc: "We offer an easy and flexible booking system for your comfort.",
+    icon: <FaCalendarCheck className="text-4xl text-lime-500 mx-auto" />,
+    title: "Customize Itinerary",
+    desc: "We offer customizable itineraries to suit your preferences and schedule.",
   },
 ];
 
@@ -25,25 +25,22 @@ const Offer = () => {
     <div className="bg-white">
       <ContentLayout>
         {/* Header */}
-        <h3 className="text-2xl leading-relaxed tracking-wide mb-3 font-semibold text-yellow-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-yellow-500">
+        <h3 className="text-2xl leading-relaxed tracking-wide mb-3 font-semibold text-lime-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-lime-500">
           What We Give
         </h3>
-
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+        <div className="grid grid-cols-4 md:grid-cols-4 gap-8 items-start">
           {/* Left Side (Title) */}
           <div className="w-full md:w-4/5">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-2xl mb-2">
               Best Offer For <br /> Your Trip
             </h2>
-            <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+            <p className="mt-2 text-gray-600 text-base leading-relaxed">
               We provide exclusive travel packages, trusted tour guides, and
               flexible booking options — everything you need for a perfect
               holiday experience.{" "}
             </p>
           </div>
-
-          {/* Right Side (Offer Cards) */}
-          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-6 h-full">
             {offers.map((offer, index) => (
               <div
                 key={index}

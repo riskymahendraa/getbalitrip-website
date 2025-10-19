@@ -15,11 +15,11 @@ const Hero = () => {
         </h1>
         <p className="text-lg md:text-xl font-light mb-6">
           Your unforgettable journey starts here — explore paradise with{" "}
-          <span className="font-semibold text-orange-400">GetBaliTrip</span>.
+          <span className="font-bold text-lime-500">GetBaliTrip</span>.
         </p>
         <a
           href="#packages"
-          className="btn bg-orange-400 hover:bg-orange-500 hover:scale-105 transition ease-in-out rounded-xl"
+          className="btn bg-lime-500 hover:bg-lime-600 hover:scale-105 transition ease-in-out rounded-xl"
         >
           Explore Packages
         </a>
