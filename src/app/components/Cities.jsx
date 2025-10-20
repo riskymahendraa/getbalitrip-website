@@ -1,6 +1,6 @@
 import React from "react";
 import ContentLayout from "../Layouts/ContentLayout";
-import destinations from "@/app/data/destinations.json";
+import cities from "@/app/data/cities.json";
 
 const Cities = () => {
   return (
@@ -30,30 +30,30 @@ const Cities = () => {
 
           {/* Cards Section */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-5">
-            {destinations.map((destination) => (
+            {cities.map((city) => (
               <div
-                key={destination.id}
-                className="card image-full w-full shadow-black shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group relative"
+                key={city.id}
+                className="card image-full w-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group relative"
               >
                 <figure className="h-56 sm:h-64 overflow-hidden">
                   <img
-                    src={destination.image}
-                    alt={destination.name}
+                    src={city.image}
+                    alt={city.name}
                     className="object-cover w-full h-full"
                   />
                 </figure>
 
                 <div className="card-body justify-center">
                   <h2 className="card-title text-2xl leading-relaxed tracking-widest justify-center items-center text-white">
-                    {destination.name}
+                    {city.name}
                   </h2>
 
                   {/* Rating */}
                   <div className="absolute bottom-2 left-2 flex items-center space-x-1 bg-black/25 px-2 py-1 rounded opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
                     <span className="text-yellow-400">★</span>
                     <div className="text-white text-sm ml-1">
-                      {destination.rating}{" "}
-                      <span className="text-yellow-500">(100+ Review)</span>
+                      {city.rating}{" "}
+                      <span className="text-yellow-500">(100+ Reviews)</span>
                     </div>
                   </div>
                 </div>

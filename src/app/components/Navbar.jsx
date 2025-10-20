@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Hamburger Button */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden flex flex-col justify-center mx-10 items-center w-10 h-10 gap-1.5 z-50"
+          className="lg:hidden flex flex-col justify-center mx-1 items-center w-10 h-10 gap-1.5 z-50"
           aria-label="Toggle menu"
         >
           <span

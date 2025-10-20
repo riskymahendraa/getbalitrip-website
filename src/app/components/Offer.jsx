@@ -10,8 +10,8 @@ const offers = [
   },
   {
     icon: <FaUsers className="text-4xl text-lime-500 mx-auto" />,
-    title: "Best Tour Guides",
-    desc: "We have professional tour guides who make your trip enjoyable and informative.",
+    title: "Best Drivers",
+    desc: "We have professional drivers who make your trip enjoyable and informative.",
   },
   {
     icon: <FaCalendarCheck className="text-4xl text-lime-500 mx-auto" />,
@@ -28,23 +28,26 @@ const Offer = () => {
         <h3 className="text-2xl leading-relaxed tracking-wide mb-3 font-semibold text-lime-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-lime-500">
           What We Give
         </h3>
-        <div className="grid grid-cols-4 md:grid-cols-4 gap-8 items-start">
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
           {/* Left Side (Title) */}
-          <div className="w-full md:w-4/5">
+          <div className="w-full md:col-span-1">
             <h2 className="text-2xl mb-2">
               Best Offer For <br /> Your Trip
             </h2>
             <p className="mt-2 text-gray-600 text-base leading-relaxed">
               We provide exclusive travel packages, trusted tour guides, and
-              flexible booking options — everything you need for a perfect
-              holiday experience.{" "}
+              flexible itenarary options — everything you need for a perfect
+              holiday experience.
             </p>
           </div>
-          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-6 h-full">
+
+          {/* Offers */}
+          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {offers.map((offer, index) => (
               <div
                 key={index}
-                className={`p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 bg-white`}
+                className="p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
               >
                 <div className="mb-4">{offer.icon}</div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2 text-center">
