@@ -1,5 +1,6 @@
 import React from "react";
 import ContentLayout from "../Layouts/ContentLayout";
+import Image from "next/image";
 import cities from "@/app/data/cities.json";
 
 const Cities = () => {
@@ -36,9 +37,11 @@ const Cities = () => {
                 className="card image-full w-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group relative"
               >
                 <figure className="h-56 sm:h-64 overflow-hidden">
-                  <img
+                  <Image
                     src={city.image}
                     alt={city.name}
+                    width={400}
+                    height={250}
                     className="object-cover w-full h-full"
                   />
                 </figure>

@@ -1,4 +1,5 @@
 import ContentLayout from "../Layouts/ContentLayout";
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -23,12 +24,15 @@ const About = () => {
         </div>
 
         {/* Image Section */}
-        <div
-          className="lg:col-span-3 h-64 md:h-[50vh] rounded-md bg-center bg-cover"
-          style={{
-            backgroundImage: "url('/images/image-1.jpg')",
-          }}
-        ></div>
+        <div className="relative lg:col-span-3 h-64 md:h-[50vh] rounded-md overflow-hidden">
+          <Image
+            src="/images/image-1.jpg"
+            alt="Beautiful scenery"
+            fill
+            priority
+            className="object-cover object-center"
+          />
+        </div>
       </div>
     </ContentLayout>
   );

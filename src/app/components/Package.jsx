@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import packages from "@/app/data/packages.json";
 import cities from "@/app/data/cities.json";
 import { FaUserGroup } from "react-icons/fa6";
@@ -22,12 +23,14 @@ const Package = () => {
             {packagesWithCity.map((pkg) => (
               <div
                 key={pkg.id}
-                className="card bg-white w-72 flex-shrink-0 shadow-sm hover:shadow-lg transition-all duration-300 snap-start md:w-full hover:scale-105"
+                className="card bg-white w-80 flex-shrink-0 shadow-sm hover:shadow-lg transition-all duration-300 snap-start md:w-full hover:scale-105"
               >
                 <figure>
-                  <img
+                  <Image
                     src={pkg.images[0]}
                     alt={pkg.name}
+                    width={400}
+                    height={300}
                     className="w-full h-48 object-cover"
                   />
                 </figure>
