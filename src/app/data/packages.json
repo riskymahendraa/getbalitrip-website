@@ -38,10 +38,10 @@
   {
     "id": 2,
     "city_id": 2,
-    "name": "Ubud and Jungle Swing Tour",
+    "name": "Tanah Lot Sunset Tour",
     "duration": "8 Hours",
-    "price": 750000,
-    "description": "Discover the cultural and natural beauty of Ubud with our Ubud Swing & Culture Tour. Begin your journey with the enchanting Barong and Keris Dance Performance, a captivating tale of good versus evil in Balinese mythology. Continue to Celuk Village, renowned for its exquisite gold and silver craftsmanship. Feel the thrill at Bali Jungle Swing, where you can soar above lush valleys and capture stunning photos. Explore the sacred Monkey Forest Sanctuary, home to hundreds of playful long-tailed macaques in a serene natural setting. End your unforgettable day at Ubud Center, where you can stroll through the traditional art market and soak in the vibrant local atmosphere.",
+    "price": 800000,
+    "description": "Discover the breathtaking beauty of Bali’s western region on this Tanah Lot Tour, where culture, nature, and spirituality blend in perfect harmony. Begin your journey through the UNESCO-listed Jatiluwih Rice Terrace, famous for its lush green landscapes and traditional Subak irrigation system. Continue to the serene Ulun Danu Beratan Temple, beautifully floating on Lake Beratan with the misty mountains as its backdrop. Next, immerse yourself in the tranquility of Leke Leke Waterfall, a hidden gem surrounded by tropical jungle and refreshing air. End the day with a spectacular sunset at Tanah Lot Temple, one of Bali’s most iconic sea temples offering magical ocean views as the sun dips below the horizon. This full-day tour is the perfect way to experience the best of Bali’s nature, culture, and spiritual charm — an unforgettable journey for every traveler.",
     "highlights": [
       "Barong and Keris Dance Performance",
       "Visit Celuk Village - Gold and Silver Craftsmanship",
@@ -50,7 +50,7 @@
       "Stroll through Ubud Center and Art Market"
     ],
     "images": [
-      "/images/packages/swing-ubud.jpg",
+      "/images/packages/tanah-lot.jpg",
       "/images/packages/ubud-and-jungle-swing-tour-2.jpg",
       "/images/packages/ubud-and-jungle-swing-tour-3.jpg"
     ],
@@ -74,7 +74,7 @@
   {
     "id": 3,
     "city_id": 3,
-    "name": "Ubud and Jungle Swing Tour",
+    "name": "Uluwatu Sunset Tour",
     "duration": "8 Hours",
     "price": 750000,
     "description": "Discover the cultural and natural beauty of Ubud with our Ubud Swing & Culture Tour. Begin your journey with the enchanting Barong and Keris Dance Performance, a captivating tale of good versus evil in Balinese mythology. Continue to Celuk Village, renowned for its exquisite gold and silver craftsmanship. Feel the thrill at Bali Jungle Swing, where you can soar above lush valleys and capture stunning photos. Explore the sacred Monkey Forest Sanctuary, home to hundreds of playful long-tailed macaques in a serene natural setting. End your unforgettable day at Ubud Center, where you can stroll through the traditional art market and soak in the vibrant local atmosphere.",
@@ -86,7 +86,7 @@
       "Stroll through Ubud Center and Art Market"
     ],
     "images": [
-      "/images/packages/swing-ubud.jpg",
+      "/images/packages/uluwatu-tour.jpg",
       "/images/packages/ubud-and-jungle-swing-tour-2.jpg",
       "/images/packages/ubud-and-jungle-swing-tour-3.jpg"
     ],

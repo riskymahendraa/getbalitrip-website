@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
 import Package from "./components/Package";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Cities />
       <Offer />
       <Package />
+      <Testimonials />
     </div>
   );
 }
