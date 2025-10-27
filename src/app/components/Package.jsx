@@ -17,7 +17,7 @@ const Package = () => {
     .slice(0, 3);
   return (
     <div className="bg-gray-100">
-      <ContentLayout>
+      <ContentLayout className="mt-10" id="packages">
         <div className="py-5">
           <h3 className="text-2xl leading-relaxed tracking-wide mb-3 font-semibold text-lime-500 relative inline-block after:content-[''] after:block after:absolute after:top-1/2 after:left-full after:ml-2 after:w-8 after:h-[2px] after:bg-lime-500">
             Many Tourist Visit
@@ -105,7 +105,7 @@ const Package = () => {
                   {/* Price & Actions */}
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-2xl font-bold text-lime-600">
+                      <p className="text-xl md:text-2xl font-bold text-lime-600">
                         IDR {pkg.price.toLocaleString("id-ID")}{" "}
                         <span className="text-sm font-normal text-gray-400">
                           /car
@@ -128,7 +128,7 @@ const Package = () => {
           </div>
           <div className="flex flex-col md:flex-row items-stretch w-full px-4 md:px-0 md:w-11/12 lg:w-3/4 xl:w-2/3 mx-auto my-4 rounded-l-2xl md:my-8 overflow-hidden md:shadow-lg">
             {/* Gambar */}
-            <div className="hidden md:block relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto md:min-h-[450px] bg-gradient-to-b from-gray-50 to-gray-100">
+            <div className="hidden md:block relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto md:min-h-[450px]">
               <Image
                 src="/images/tourist.png"
                 alt="Tourist"

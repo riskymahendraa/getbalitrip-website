@@ -1,10 +1,11 @@
 import About from "./components/About";
+import Blog from "./components/Blog";
 import Cities from "./components/Cities";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
 import Package from "./components/Package";
-import Testimonials from "./components/Testimonials";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       <Cities />
       <Offer />
       <Package />
-      <Testimonials />
+      <Testimonial />
+      <Blog />
     </div>
   );
 }

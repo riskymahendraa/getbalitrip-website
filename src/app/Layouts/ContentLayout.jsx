@@ -1,7 +1,9 @@
 import React from "react";
 
-const ContentLayout = ({ children }) => {
-  return <div className="my-10 container mx-auto px-4">{children}</div>;
+const ContentLayout = ({ children, className = "" }) => {
+  return (
+    <div className={`container mx-auto px-4 ${className}`}>{children}</div>
+  );
 };
 
 export default ContentLayout;

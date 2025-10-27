@@ -6,7 +6,7 @@ import cities from "@/app/data/cities.json";
 const Cities = () => {
   return (
     <div>
-      <ContentLayout>
+      <ContentLayout className="my-10">
         <div className="space-y-6">
           {/* Heading & Intro */}
           <div className="w-full">

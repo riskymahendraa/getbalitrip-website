@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <ContentLayout>
+    <ContentLayout className="my-10">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
         {/* Text Section */}
         <div className="lg:col-span-1">

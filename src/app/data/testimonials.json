@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Caitlin Smith",
+    "rating": 5,
+    "link": "https://example.com/testimonial/janedoe",
+    "testimonial": "This travel agency truly understands what families need. Our kids had so much fun with the activities, and we parents got to relax and enjoy the views. Highly recommended for family vacations!”This travel agency truly understands what families need. Our kids had so much fun with the activities, and we parents got to relax and enjoy the views. Highly recommended for family vacations!"
+  },
+  {
+    "id": 2,
+    "name": "Brian Johnson",
+    "rating": 5,
+    "link": "https://example.com/testimonial/janedoe",
+    "testimonial": "My trip to Bali with GetBaliTrip was absolutely unforgettable! Everything was perfectly organized — from the hotel and transport to the daily itinerary. I could just relax and enjoy the experience without any stress!"
+  },
+  {
+    "id": 3,
+    "name": "Emily Davis",
+    "rating": 5,
+    "link": "https://example.com/testimonial/janedoe",
+    "testimonial": "From airport pickup to private villa stays, everything was flawless. The staff went above and beyond to make us feel special. If you’re looking for a luxurious yet stress-free getaway, look no further."
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "rating": 5,
+    "link": "https://example.com/testimonial/janedoe",
+    "testimonial": "I’ve traveled a lot, but this agency stands out for its attention to detail. Every destination felt curated just for me — great accommodations, smooth transport, and an authentic local touch. Definitely booking my next trip with them!"
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "rating": 5,
+    "link": "https://example.com/testimonial/janedoe",
+    "testimonial": "I’ve traveled a lot, but this agency stands out for its attention to detail. Every destination felt curated just for me — great accommodations, smooth transport, and an authentic local touch. Definitely booking my next trip with them!"
+  }
+]
