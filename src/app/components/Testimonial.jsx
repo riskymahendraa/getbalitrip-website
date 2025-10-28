@@ -52,7 +52,7 @@ const Testimonial = () => {
         </div>
 
         <div className="flex my-5 mx-auto z-10 items-center justify-center">
-          <h2 className="text-2xl md:text-3xl text-center leading-snug md:text-4xl font-semibold text-white">
+          <h2 className="text-2xl text-center leading-snug md:text-4xl font-semibold text-white">
             What Our Happy <br /> Clients Say
           </h2>
         </div>

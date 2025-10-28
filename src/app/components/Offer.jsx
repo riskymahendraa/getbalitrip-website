@@ -32,8 +32,8 @@ const Offer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
           {/* Left Side (Title) */}
           <div className="w-full md:col-span-1">
-            <h2 className="text-2xl mb-2">
-              Best Offer For <br /> Your Trip
+            <h2 className="text-3xl mb-2">
+              Best offer for <br /> your trip
             </h2>
             <p className="mt-2 text-gray-600 text-base leading-relaxed">
               We provide exclusive travel packages, trusted tour guides, and
